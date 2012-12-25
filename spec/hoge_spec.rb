@@ -9,6 +9,10 @@ describe Hoge, "通常" do
     @h.cry.should == "hoge!"
   end
 
+  it "tweet で ...hoge... 文字列を返す" do
+    @h.tweet.should == "...hoge..."  
+  end
+
   after do
     @h = nil
   end
