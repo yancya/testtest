@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-require './hoge.rb'
+require '../lib/hoge.rb'
 describe Hoge, "通常" do
   before do 
     @h = Hoge.new
