@@ -1,6 +1,6 @@
 class Hoge
   def cry
-    "hoge!"
+    "hoge!!"
   end
 
   def tweet
