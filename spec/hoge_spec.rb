@@ -6,7 +6,7 @@ describe Hoge, "通常" do
   end
 
   it "cry で hoge! 文字列を返す" do
-    @h.cry.should == "hoge!"
+    @h.cry.should == "hoge!!"
   end
 
   it "tweet で ...hoge... 文字列を返す" do
